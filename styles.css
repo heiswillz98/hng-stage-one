@@ -19,7 +19,6 @@ body {
   padding-top: 100px;
 }
 
-/* Example CSS for styling Slack Display Picture */
 [data-testid="slackDisplayImage"] {
   max-width: 200px;
   border: 2px solid #000;
