@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: burlywood;
+  width: 100vw;
+  margin: 0;
+}
+
+[data-testid="slackUserName"] {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+/* Example CSS for styling Slack Display Picture */
+[data-testid="slackDisplayImage"] {
+  max-width: 200px;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
